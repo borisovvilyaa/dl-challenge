@@ -2,9 +2,7 @@
 
 На цю задачу орієнтовно витрачено 8 годин. 
 
-По своєї суті, це є [цей алгоритм](https://en.wikipedia.org/wiki/Maze_generation_algorithme) (Recursive Backtracking), але більш спрощиний та, як на мене, біль оптимізований. 
-
-![alt text](image-2.png)
+По своєї суті, це є [цей алгоритм](https://en.wikipedia.org/wiki/Maze_generation_algorithm) (Recursive Backtracking), але більш спрощиний та, як на мене, біль оптимізований. 
 
 Також було покращено алгоритм додавши _CellType_, таким чином можна швидко додавати чи видаляти тип комірки. Швидкість O(n^2), де n - розмір матриці.
 
